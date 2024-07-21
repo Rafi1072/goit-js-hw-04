@@ -9,7 +9,9 @@ const profile = {
       }
     }
   },
-
+  updatePlayTime(hours) {
+    profile.playTime.push();
+}
 
   function getInfo(){
   return '${profile.username} ma ${huors} aktywnych godzin!';
