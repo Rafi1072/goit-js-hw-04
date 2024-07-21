@@ -1,4 +1,14 @@
-function calcAverageCalories(days) {}
+function calcAverageCalories(days) {
+  const values = Object.values(day);
+  let total = 0;
+  for (i = 0; i < values.length; i++) {
+    total += values[i];
+  }
+  function averageValue() {
+    const suma = values / day.calories.lenhgt;
+    return suma;
+  }
+}
 
 console.log(
   calcAverageCalories([
